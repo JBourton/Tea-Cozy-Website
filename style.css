@@ -17,7 +17,7 @@ nav {
 
 .navbar_menu {
     display: flex;
-    float: right;
+    margin-left: 550px;
     align-items: center;
     list-style: none;
 }
@@ -25,6 +25,31 @@ nav {
 .navbar_links {
     padding: 0 1rem;
     height: 100%;
+}
+
+.intro_box {
+    background-image: url("/images/img-mission-background.jpg");
+    height: 700px;
+    width: 1200px;
+    text-align: center;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro_content {
+    background-color: black;
+    line-height: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.intro_content h1 {
+    font-size: 35px;
 }
 
 /* Styling Images */
