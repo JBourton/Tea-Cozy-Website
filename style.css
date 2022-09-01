@@ -90,10 +90,38 @@ nav {
 .location_display {
     display: flex;
     justify-content: space-around;
+    position: relative;
+    top: 200px;
+    background-color: transparent;
 }
 
 .location_box {
     line-height: 40px;
     margin: auto 40px;
+    width: 300px;
 }
+
+#location_h1 {
+    background-color: transparent;
+    font-size: 45px;
+    position: relative;
+    top: 180px;
+}
+
+/* Styling the 'contact us' box */
+.contact_box {
+    line-height: 40px;
+    font-size: 60px;
+    height: 200px;
+    margin-top: 40px;
+}
+
+/* Styling the footer */
+.copyright {
+    text-align: left;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+
 
